@@ -25,4 +25,5 @@ import "@dldl/api-fixtures-generator"
 // Your application code
 ```
 
-You may conditionally load the library based on the `NODE_ENV` environment variable to only load this in development.
+You may conditionally load the library based on the `NODE_ENV` environment variable to only load this in testing (for
+instance by using an already generated fixture file or by generating it on the fly like `Netflix/pollyjs` would do).
