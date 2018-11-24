@@ -25,4 +25,4 @@ import "@dldl/api-fixtures-generator"
 // Your application code
 ```
 
-You may conditionally load the library based on the `NODE_ENV` environment variable to only load this in production.
+You may conditionally load the library based on the `NODE_ENV` environment variable to only load this in development.
