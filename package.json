@@ -1,6 +1,6 @@
 {
   "name": "@dldl/api-fixtures-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generator able to create fixtures files by spying fetch requests.",
   "main": "dist/main.js",
   "scripts": {
