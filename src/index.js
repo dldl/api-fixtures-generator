@@ -3,8 +3,6 @@ import md5 from "md5"
 const oldFetch = window.fetch
 
 window.fetch = async (url, body) => {
-  console.log(url, body)
-
   const response = await oldFetch(url, body)
   const originalResponse = response.clone()
   const contentType = response.headers.get("Content-Type")
