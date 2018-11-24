@@ -1,0 +1,31 @@
+{
+  "name": "@dldl/api-fixtures-generator",
+  "version": "1.0.0",
+  "description": "Generator able to create fixtures files by spying fetch requests.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dldl/api-fixtures-generator.git"
+  },
+  "keywords": [
+    "API",
+    "Fixtures"
+  ],
+  "author": "Quentin de Longraye <quentin@dldl.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dldl/api-fixtures-generator/issues"
+  },
+  "homepage": "https://github.com/dldl/api-fixtures-generator#readme",
+  "dependencies": {
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
