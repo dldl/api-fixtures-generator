@@ -2,7 +2,7 @@
   "name": "@dldl/api-fixtures-generator",
   "version": "1.0.0",
   "description": "Generator able to create fixtures files by spying fetch requests.",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production"
